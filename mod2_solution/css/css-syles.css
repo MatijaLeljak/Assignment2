@@ -1,4 +1,260 @@
-p {
-    font-family: sans-serif;
-    font-size:14px
+* {
+    box-sizing: border-box;
+    
+    
+    
 }
+body {
+    font-family: serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    border:0
+}
+h1 {
+    margin-bottom: 30px;
+    text-align:center;
+    font-size: 175%;
+}
+.p1, .p11 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    background-color: cadetblue;
+    color:black;
+    position: relative;
+    border: 1px solid black;
+}
+
+.row {
+    width: 100%;
+    
+    
+}
+
+
+
+@media (min-width:992px) {
+    .desktop1, .desktop2, .desktop3, .desktop4, .desktop5, .desktop6, .desktop7, .desktop8, .desktop9, .desktop10, .desktop11, .desktop12 {
+        float:left;
+        display: inline-block;
+       
+       
+    }
+    .desktop1 {
+        width: 8.33%
+    }
+    .desktop2 {
+        width: 16.66%
+    }
+    .desktop3 {
+        width: 25%
+    }
+    .desktop4 {
+        width: 33.33%
+    }
+    .desktop5 {
+        width: 41.66%
+    }
+    .desktop6 {
+        width: 50%
+    }
+    .desktop7 {
+        width: 58.33%
+    }
+    .desktop8 {
+        width: 66.66%
+    }
+    .desktop9 {
+        width: 75%
+    }
+    .desktop10 {
+        width: 83.33%
+    }
+    .desktop11 {
+        width: 91.66%
+    }
+    .desktop12 {
+        width: 100%
+    }
+    .p22 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 33%;
+    height:30px;
+    margin: 0;
+    text-align: center;
+    background-color:aqua;
+    font-size: 125%;
+    border: 1px solid black;
+}
+    .p21 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 33%;
+    height:30px;
+    margin: 0;
+    text-align:center;
+    background-color: red;
+    font-size: 125%;
+    border: 1px solid black;
+}
+    
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .tablet1, .tablet2, 
+    .tablet1 {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+        float:left;
+    }
+    .tablet2 {
+        width: 100%;
+        float: left;
+        display: block;
+        margin-top: 5%;
+        
+    }
+     .p24 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 20%;
+    height:30px;
+    margin: 0;
+    text-align: center;
+    background-color:aqua;
+    font-size: 125%;
+    border: 1px solid black;
+    }
+    .p21 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 33%;
+    height:30px;
+    margin: 0;
+    text-align:center;
+    background-color: red;
+    font-size: 125%;
+    border: 1px solid black;
+}
+    .p11{
+        width: 95%;    
+}
+    
+}
+@media (max-width:767px) {
+    .mobile1, .mobile2, .mobile3, .mobile4, .mobile5, .mobile6, .mobile7, .mobile8, .mobile9, .mobile10, .mobile11, .mobile12 {
+        float:left;
+        display: inline-block;
+        margin-top: 5%;
+        
+    }
+    .mobile1 {
+        width: 8.33%
+    }
+    .mobile2 {
+        width: 16.66%
+    }
+    .mobile3 {
+        width: 25%
+    }
+    .mobile4 {
+        width: 33.33%
+    }
+    .mobile5 {
+        width: 41.66%
+    }
+    .mobile6 {
+        width: 50%
+    }
+    .mobile7 {
+        width: 58.33%
+    }
+    .mobile8 {
+        width: 66.66%
+    }
+    .mobile9 {
+        width: 75%
+    }
+    .mobile10 {
+        width: 83.33%
+    }
+    .mobile11 {
+        width: 91.66%
+    }
+    .mobile12 {
+        width: 100%
+    }
+.p22 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 33%;
+    height:30px;
+    margin: 0;
+    text-align: center;
+    background-color:aqua;
+    font-size: 125%;
+    border: 1px solid black;
+}
+    .p23 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 38%;
+    height:30px;
+    margin: 0;
+    text-align:center;
+    background-color: red;
+    font-size: 125%;
+    border: 1px solid black;
+}
+   
+}
+.p2 {
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 33%;
+    height:30px;
+    margin: 0;
+    text-align: center;
+    background-color: burlywood;
+    font-size: 125%;
+    border: 1px solid black;
+    
+}
+ 
+ 
+
+.p3 {
+    margin:40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.p4 {
+    margin:40px;
+    margin-left: 5px;
+    margin-right:15px;
+}
+
+    .p41 {
+        margin:40px;
+        margin-left: 5px;
+        margin-right:5px;
+        
+    }    
